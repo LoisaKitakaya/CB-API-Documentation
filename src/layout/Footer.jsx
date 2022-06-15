@@ -3,16 +3,23 @@ const Footer = () => {
     <footer className="footer">
       <div className="content has-text-centered">
         <p>
-          <strong>Bulma</strong> by{" "}
-          <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is
-          licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
-          website content is licensed{" "}
-          <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-            CC BY NC SA 4.0
+          Developed by{" "}
+          <a href="" className="has-text-dark is-underlined">
+            <strong>Freedom Loisa</strong>
           </a>
-          .
         </p>
+        <br />
+        <div className="sec-1">
+          <a href="" className="has-text-dark is-underlined">
+            <strong>Source Code</strong>
+          </a>
+          <a href="" className="has-text-dark is-underlined">
+            <strong>GitHub</strong>
+          </a>
+          <a href="" className="has-text-dark is-underlined">
+            <strong>Twitter</strong>
+          </a>
+        </div>
       </div>
     </footer>
   );

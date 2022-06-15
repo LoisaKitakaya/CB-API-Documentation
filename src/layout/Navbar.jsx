@@ -5,16 +5,22 @@ const Navbar = () => {
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <Link to={"/"} className="navbar-item">
-          <p className="is-size-3">Cat Breeds API</p>
+          <p className="is-size-3">CB API</p>
         </Link>
       </div>
 
-      <div id="navbarBasicExample" class="navbar-menu">
+      <div id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-end">
-          <Link to={"/about"} className="navbar-item">
+          <Link
+            to={"/about"}
+            className="navbar-item navbar-item-2 navbar-item-3"
+          >
             About
           </Link>
-          <Link to={"/documentation"} className="navbar-item">
+          <Link
+            to={"/documentation"}
+            className="navbar-item navbar-item-2 navbar-item-3"
+          >
             Documentation
           </Link>
         </div>
