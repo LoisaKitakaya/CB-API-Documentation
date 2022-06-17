@@ -95,6 +95,19 @@ const About = () => {
             </a>{" "}
             and the entire project is hosted on Heroku and Netlify.
           </p>
+          <br />
+          <p className="is-size-5">
+            If there is any delay while fetching data using the API, don't
+            panic. The API in hosted on Heroku under a free acount and the{" "}
+            <a href="https://www.heroku.com/dynos" className="nav-links">
+              dynos
+            </a>{" "}
+            running the app got to sleep agter 30 mins of inactivity.
+            <br />
+            <br />
+            Just give it some few seconds to get back up and you shall have your
+            data and can keep making requests to the api as much as you want.
+          </p>
         </section>
         {/* about */}
 
