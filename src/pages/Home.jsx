@@ -34,7 +34,7 @@ const Home = () => {
       {/* main-container */}
       <div className="main-container">
         {/* intro */}
-        <section className="section is-medium">
+        <section className="section">
           <h1 className="title">Cat Breeds API</h1>
           <br />
           <h2 className="subtitle">
@@ -46,7 +46,7 @@ const Home = () => {
         {/* intro */}
 
         {/* demo */}
-        <section className="section is-medium demo">
+        <section className="section demo">
           {data.allBreedsLimit5.map((breed) => {
             const list = (
               <>
@@ -61,7 +61,7 @@ const Home = () => {
                     <p className="is-size-4">Origin: {breed.origin}</p>
                     <hr />
                     <div class="content">
-                      <p>{breed.intro}</p>
+                      <p className="is-size-5">{breed.intro}</p>
                     </div>
                   </div>
                 </div>

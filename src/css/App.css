@@ -43,11 +43,23 @@
 .demo {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  /* align-items: center; */
   justify-content: first baseline;
 }
 
 .sec-1 {
   display: flex;
   justify-content: space-evenly;
+}
+
+.subtitle {
+  font-weight: bold;
+}
+
+.about {
+  margin: 0 8rem !important;
+}
+
+.nav-links {
+  text-decoration: underline;
 }
