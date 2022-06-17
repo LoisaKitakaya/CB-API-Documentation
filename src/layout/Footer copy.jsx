@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="footer is-bot">
       <div className="content has-text-centered">
         <div className="sec-1">
           <a

@@ -34,8 +34,11 @@ const About = () => {
         <section class="section">
           <h2 class="subtitle is-size-4">Who am I?</h2>
           <p className="is-size-5">
-            My name is Freedom Loisa. I love developing things, and I also love
-            cats.
+            My name is{" "}
+            <a href="https://github.com/LoisaKitakaya" className="nav-links">
+              Freedom Loisa
+            </a>
+            . I love developing things, and I also love cats.
           </p>
         </section>
         {/* about */}
@@ -136,11 +139,7 @@ const About = () => {
             to their respective owners.
             <br />
             <br />
-            This API is open source and uses a{" "}
-            <a href="" className="nav-links">
-              BSD license
-            </a>
-            .
+            This API is open source and uses a BSD license.
           </p>
         </section>
         {/* about */}

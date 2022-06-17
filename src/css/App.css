@@ -43,8 +43,8 @@
 .demo {
   display: flex;
   flex-wrap: wrap;
-  /* align-items: center; */
-  justify-content: first baseline;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .sec-1 {
@@ -62,4 +62,52 @@
 
 .nav-links {
   text-decoration: underline;
+}
+
+.doc {
+  height: 575vh;
+  display: flex;
+}
+
+.doc-menu {
+  position: fixed;
+  left: 0;
+  width: 25%;
+  height: 100vh;
+  overflow-y: auto;
+  padding-top: 2rem;
+  border-right: 1px solid gray;
+}
+
+.doc-body {
+  width: 75%;
+  position: relative;
+  padding-top: 2rem;
+  position: absolute;
+  right: 0;
+}
+
+.is-fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.is-bot {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 2rem 1rem;
+}
+
+.footer {
+  padding: 2rem 1rem;
+}
+
+.sub-menu {
+  padding-left: 1rem;
+}
+
+.sub-sub-menu {
+  padding-left: 2rem;
 }
