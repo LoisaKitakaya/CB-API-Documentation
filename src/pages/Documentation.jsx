@@ -80,10 +80,10 @@ const Documentation = () => {
             <p className="is-size-5">
               The GraphQL endpoint for this api:{" "}
               <a
-                href="http://127.0.0.1:8000/graphql"
+                href="https://cat-breeds-api.herokuapp.com//graphql"
                 className="is-size-6 has-text-link is-underlined"
               >
-                http://127.0.0.1:8000/graphql
+                https://cat-breeds-api.herokuapp.com//graphql
               </a>
             </p>
             <br />
@@ -302,10 +302,10 @@ const Documentation = () => {
             <p className="is-size-5">
               Base url:{" "}
               <a
-                href="http://127.0.0.1:8000/rest/all_breeds"
+                href="https://cat-breeds-api.herokuapp.com//rest/all_breeds"
                 className="is-size-6 has-text-link is-underlined"
               >
-                http://127.0.0.1:8000/rest/all_breeds
+                https://cat-breeds-api.herokuapp.com//rest/all_breeds
               </a>
               <br />
               <br />
@@ -317,19 +317,19 @@ const Documentation = () => {
               <ul>
                 <li>
                   <a
-                    href="http://127.0.0.1:8000/rest/all_breeds"
+                    href="https://cat-breeds-api.herokuapp.com//rest/all_breeds"
                     className="is-size-6 has-text-link is-underlined"
                     id="rest-endpoints"
                   >
-                    http://127.0.0.1:8000/rest/all_breeds
+                    https://cat-breeds-api.herokuapp.com//rest/all_breeds
                   </a>
                 </li>
                 <li>
                   <a
-                    href="http://127.0.0.1:8000/rest/breed_name"
+                    href="https://cat-breeds-api.herokuapp.com//rest/breed_name"
                     className="is-size-6 has-text-link is-underlined"
                   >
-                    http://127.0.0.1:8000/rest/breed_name
+                    https://cat-breeds-api.herokuapp.com//rest/breed_name
                   </a>
                 </li>
               </ul>
@@ -342,12 +342,16 @@ const Documentation = () => {
             </p>
             <br />
             <pre>
-              <code>all breeds: http://127.0.0.1:8000/rest/all_breeds</code>
+              <code>
+                all breeds:
+                https://cat-breeds-api.herokuapp.com//rest/all_breeds
+              </code>
             </pre>
             <br />
             <pre>
               <code>
-                breed by name: http://127.0.0.1:8000/rest/breed_name/?q=Aegean
+                breed by name:
+                https://cat-breeds-api.herokuapp.com//rest/breed_name/?q=Aegean
               </code>
             </pre>
             <br />

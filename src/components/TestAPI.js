@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect } from "react";
 
-const restClient = "http://127.0.0.1:8000/rest/all_breeds";
+const restClient = "https://cat-breeds-api.herokuapp.com//rest/all_breeds";
 
 const TestAPI = () => {
   const RESTEndpoint = async () => {

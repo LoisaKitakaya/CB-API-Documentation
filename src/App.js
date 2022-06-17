@@ -8,7 +8,7 @@ import About from "./pages/About";
 import Documentation from "./pages/Documentation";
 
 const graphClient = new ApolloClient({
-  uri: "http://127.0.0.1:8000/graphql/",
+  uri: "https://cat-breeds-api.herokuapp.com/graphql/",
   cache: new InMemoryCache(),
 });
 
