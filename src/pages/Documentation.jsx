@@ -23,6 +23,12 @@ const Documentation = () => {
               </a>
             </h2>
             <br />
+            <h2 class="sub-menu">
+              <a href="#schema" className="has-text-dark">
+                Schema
+              </a>
+            </h2>
+            <br />
             <h2 class="subtitle">
               <a href="#graphql" className="has-text-dark">
                 GraphQL
@@ -66,11 +72,81 @@ const Documentation = () => {
             </h1>
             <br />
             <h2 class="subtitle">Introduction</h2>
-            <p className="is-size-5" id="graphql">
+            <p className="is-size-5">
               This documentation will help you get familiar with the resources
-              of the Rick and Morty API and show you how to make different
+              of the Cat Breeds API and show you how to make different
               queries, so that you can get the most out of it.
             </p>
+            <br id="schema" />
+            <h2 class="subtitle">Schema</h2>
+            <table className="table is-fullwidth is-bordered is-striped is-narrow is-hoverable">
+              <thead>
+                <tr>
+                  <th>Key</th>
+                  <th>Type</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>id</td>
+                  <td>int</td>
+                  <td>The id of the cat</td>
+                </tr>
+                <tr>
+                  <td>breed</td>
+                  <td>string</td>
+                  <td>The name of the breed of the cat</td>
+                </tr>
+                <tr>
+                  <td>origin</td>
+                  <td>string</td>
+                  <td>The location where the breed was first discovered</td>
+                </tr>
+                <tr>
+                  <td>occurrence</td>
+                  <td>string</td>
+                  <td>Details how the breed came to be</td>
+                </tr>
+                <tr>
+                  <td>bodyType</td>
+                  <td>string</td>
+                  <td>Describes the body type of the breed</td>
+                </tr>
+                <tr>
+                  <td>coatTypeAndLength</td>
+                  <td>string</td>
+                  <td>Describes the coat of the breed</td>
+                </tr>
+                <tr>
+                  <td>coatPattern</td>
+                  <td>string</td>
+                  <td>Describes the pattern on the coat of the breed</td>
+                </tr>
+                <tr>
+                  <td>image</td>
+                  <td>string</td>
+                  <td>Has the url of the image of the cat</td>
+                </tr>
+                <tr>
+                  <td>intro</td>
+                  <td>string</td>
+                  <td>A short paragraph about the cat breed</td>
+                </tr>
+                <tr>
+                  <td>description</td>
+                  <td>string</td>
+                  <td>
+                    A short paragraph detailing the appearance of the breed
+                  </td>
+                </tr>
+                <tr id="graphql">
+                  <td>history</td>
+                  <td>string</td>
+                  <td>A short paragraph detailing the history of the breed</td>
+                </tr>
+              </tbody>
+            </table>
             <br />
             <br />
             <h1 class="title" id="graphql-all">
